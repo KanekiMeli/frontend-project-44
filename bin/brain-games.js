@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-console.log('Welcome to the Brain Games!');
- 
-nameAsk()
+import nameAsk from '../src/cli.js';
 
-import {nameAsk} from '../src/cli.js';
+console.log('Welcome to the Brain Games!');
+
+nameAsk();
